@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+p{
+    text-align: left;
+    font-weight: 400;
+}
+h2{
+    text-decoration:underline
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+header {
+    background:black;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color:red;
+}
+
+/* Home Section */
+#home {
+    height: 100vh;
+    background: url('https://t3.ftcdn.net/jpg/07/44/68/52/360_F_744685204_w4YXRUzW2UIdSq1XURfi5d7ht0cb2T1l.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(249, 246, 246);
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#home p {
+    font-size: 24px;
+}
+
+#home .btn {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+#home .btn:hover {
+    background-color: #333;
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+    background:wheat;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Projects Section */
+#projects {
+    /* padding: 50px 20px; */
+    background: #69cbda;
+    text-align: center;
+}
+#projects1 {
+    /* padding: 50px 20px; */
+    background: black;
+    text-align: center;
+    color: #f4f4f4;
+}
+#projects2 {
+    /* padding: 50px 20px; */
+    background: rgb(184, 243, 150);
+    text-align: center;
+    color: black;
+}
+#projects3 {
+    /* padding: 50px 20px; */
+    background: rgb(218, 154, 232);
+    background-image: url("https://i.pinimg.com/originals/7f/01/5d/7f015d18a85daefe176cb0a4c2f0fc69.jpg");
+    background-size: cover;
+    text-align: center;
+    color: black;
+}
+#projects4 {
+    /* padding: 50px 20px; */
+    background:rgb(17, 142, 71);
+    text-align: center;
+    color: black;
+}
+#projects5 {
+    /* padding: 50px 20px; */
+    background:navajowhite;
+    text-align: center;
+    color: black;
+}
+#projects6 {
+    /* padding: 50px 20px; */
+    background-image: url("https://i0.wp.com/pixahive.com/wp-content/uploads/2021/02/water-wave-background-339980-pixahive.jpg?fit=2560%2C1440&ssl=1");
+    background-size: cover;
+    text-align: center;
+    color: black;
+}
+
+#projects h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-item1 {
+    background-image: url("https://d3hnfqimznafg0.cloudfront.net/images/Article_Images/ImageForArticle_898_44924040741493052171.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    padding: 20px;
+    height: 300px;    
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.project-item3 {
+    background-image: url("https://media.licdn.com/dms/image/C4E12AQHHAMD2I80FkA/article-cover_image-shrink_600_2000/0/1520234854032?e=2147483647&v=beta&t=kpgLqKC8YLRVfZyU0egY8cwm19e8x8ElWAki_gyB5pw");
+    background-size: cover;
+    border: 50%;
+    padding: 20px;
+    height: 300px;    
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.project-item2 {
+    background-image: url("https://akm-img-a-in.tosshub.com/businesstoday/images/story/202308/ezgif-sixteen_nine_472.jpg?size=948:533");
+    background-size: cover;
+    border: 50%;
+    padding: 20px;
+    height: 300px;    
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.project-item4 {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/55f0bb56e4b0292a721109c4/1569436519738-SIC80VMXCM3M3BTF6OS2/water+shortage");
+    background-size: cover;
+    border: 50%;
+    padding: 20px;
+    height: 400px;
+    border-color: greenyellow;    
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.project-item5 {
+    background-image: url("https://cdnuploads.aa.com.tr/uploads/Contents/2022/03/14/thumbs_b_c_e0b2f22ea06adefa0454e49822e7f4f5.jpg?v=130032");
+    background-size: cover;
+    border: 50%;
+    padding: 20px;
+    height: 400px;    
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.project-item6 {
+    background-image: url("https://knowledgesteez.com/wp-content/uploads/2024/02/water-scarcity.jpg");
+    background-size: cover;
+    border: 50%;
+    padding: 20px;
+    height: 400px;    
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.project-item6 {
+    background-image: url("https://knowledgesteez.com/wp-content/uploads/2024/02/water-scarcity.jpg");
+    background-size: cover;
+    border: 50%;
+    padding: 20px;
+    height: 400px;    
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.project-item7 {
+    background-image: url("https://www.alfaauv.com/wp-content/uploads/Article-Sustainable-Water-Management.png");
+    background-size: cover;
+    border: 50%;
+    padding: 20px;
+    height: 400px;    
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.project-item8 {
+    background-image: url("https://nexteel.in/wp-content/uploads/2024/06/Government-initiatives-and-schemes-for-water-conservation-in-india.jpg");
+    background-size: cover;
+    border: 50%;
+    padding: 20px;
+    height: 400px;    
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.project-item9 {
+    background-image: url("https://sustainable.kmutt.ac.th/wp-content/uploads/2024/01/DALL%C2%B7E-2024-01-18-13.23.25-A-compelling-and-visionary-image-depicting-Global-Green-Policies-2024_-Shaping-a-Sustainable-Tomorrow.-The-scene-portrays-a-global-summit-on-sustain-1024x585.png");
+    background-size: cover;
+    border: 50%;
+    padding: 20px;
+    height: 400px;    
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.project-item10 {
+    background-image: url("https://images.staticjw.com/cor/9717/concept-save-the-world-save-environment.jpg");
+    background-size: cover;
+    border: 50%;
+    padding: 20px;
+    height: 400px;   
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.project-item11 {
+    background-image: url("");
+    background-size: cover;
+    border: 50%;
+    padding: 20px;
+    height: 400px;    
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.project-item12 {
+    background-color:aquamarine;
+    background-size: cover;
+    border: 50%;
+    padding: 20px;
+    height: 400px;    
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.project-item013 {
+    background-image: url("https://static.wixstatic.com/media/4d9fb2_58af731d887c4a8fa9943365fc1506de~mv2.webp/v1/fill/w_640,h_366,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/4d9fb2_58af731d887c4a8fa9943365fc1506de~mv2.webp");
+    background-size: cover;
+    border: 50%;
+    padding: 20px;
+    height: 400px;    
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.project-item15 {
+    background-image: url("https://t4.ftcdn.net/jpg/05/65/52/61/360_F_565526112_dfCgD9rs0hEH2N0pNBp5Y0cyhTeLWaxT.jpg");
+    background-size: cover;
+    border: 50%;
+    padding: 20px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.project-item14 {
+    background-image: url("https://media.licdn.com/dms/image/v2/D5612AQHiKtEcqDUycg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1721186204540?e=2147483647&v=beta&t=qnBP1Ceu3cPWfAk_XMT095YxRzptTzDeD2iihUk2Ygc");
+    background-size: cover;
+    border: 50%;
+    padding: 20px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.project-item16 {
+    background-image: url("https://imgscf.slidemembers.com/docs/1/1/64/efficacy_of_green_tea_-_easy_powerpoint_design_63961.jpg");
+    background-size: cover;
+    border: 50%;
+    padding: 20px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.project-item17 {
+    background-image: url("");
+    background-size: cover;
+    border: 50%;
+    padding: 20px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+
+/* Skills Section */
+#skills {
+    padding: 50px 20px;
+    background: rgb(222, 197, 106);
+    text-align: center;
+}
+#skills1 {
+    padding: 50px 20px;
+    background: rgb(95, 219, 199);
+    text-align: center;
+}
+#skills2 {
+    padding: 50px 20px;
+    background: rgb(236, 130, 94);
+    text-align: center;
+}
+#skills3 {
+    padding: 50px 20px;
+    background:#0fe774;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    list-style: none;
+}
+
+.skills-list li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Contact Section */
+#contact {
+    background:#ecc1c1;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background:black;
+    color: white;
+}
